@@ -1,0 +1,200 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Header & Navigation Styles
+- Images & Media
+- Footer
+- Media Queries
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+/* - General Content
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+.main {
+    padding-top:3%;}
+
+.row {
+    padding: 2% 0;}
+
+.row {
+    padding: 2% 0}
+.green {
+background-color:#2f89f2;}
+
+/* - Typography
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+    font-family: 'Abel', sans serif;
+    font-size: 1.5am;
+    color: #000;
+}
+
+h2 {
+    font-family: 'satisfy', cursive;
+    font-size: : 3em;
+    margin: 0.67am;
+}
+
+h2.bio {
+    color: #2230d9;
+}
+
+p.bio {
+    color: #fff;
+    
+}
+
+
+
+/* - Header & Navigation Styles
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+header.main_nav {
+    padding: 1% 0;
+    display: block;
+}
+
+.logo {
+    margin: 5% auto;
+    text-align: center;
+    
+}
+
+.logo a{
+   font-size: 3em;
+   color:#fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    padding: 2px 10px 0 10px;
+    margin: 0;
+    color: #fff;
+}
+
+.logo a:hover {
+    background-color: #fff;
+    color: #2230d9;
+    
+}
+
+
+/* - Images & Media
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+img {
+    max-width: 100%;
+}
+
+img.avatar {
+    border-radius: 400px;
+    border: 5px solid #fff;
+}
+
+img:hover {
+    opacity:0.8;
+}
+
+.imgWrap {
+    position: relative;
+    max-width: 100%;
+}
+
+.imgDescription {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(122, 39, 165, 0.72);
+    color: #fff;
+    font-family: 'Abel', sans serif;
+    font-size: 200%;
+    padding: 2px 10px 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap:hover .imgDescription {
+    visibility: visible;
+    opacity: 1;
+}
+/* - Footer
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+ul.social {
+    display: block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.social li {
+    font-size: 3em;
+    display:inline;
+    padding: 0 2%;
+}
+
+ul.social li a {
+    
+    color: #666;
+}
+
+ul.social li.facebook a:hover {
+ 
+    color: rgb(59,89,153);
+}
+
+ul.social li.twitter a:hover {
+ 
+    color: rgb(0,172,237);
+}
+
+ul.social li.instagram a:hover {
+ 
+    color: rgb(81,127,237);
+}
+
+ul.social li.youtube a:hover {
+ 
+    color: rgb(187,0,0);
+}
+
+ul.social li.flickr a:hover {
+ 
+    color: rgb(255,0,132);
+}
+
+ul.social li.linkedin a:hover {
+ 
+    color: rgb(0,123,182);
+}
+
+p.copyright {
+ 
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+}
+
+/* -Media Queries
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* Larger than mobile */
+@media (min-width: 479px) {
+
+    .logo a{font-size: 2em;}
+    .main {padding-top: 10%;}
+    .portfolio img {margin-bottom: 10%;}
+    img.avatar {margin-top: 15%;}
+    n2.bio {font-size: 2.5em;}
+    p.bio {font-size: 1.25em; color: #2230d9;}
+    ul.social li a{font-size: .75em;}
+}
+
+

@@ -1,0 +1,79 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Images & Media
+- Media Queries
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+/* - General Content
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+body { background-color: #2f89f2; 
+
+}
+
+.promo {
+ 
+    position: relative; margin: 40px; font-size: 16px; font-family: "Abel", sans-serif;
+}
+
+.promo video {
+    width: 100%; border: 1px solid #fff;
+}
+
+
+.promo img {
+    width: 160px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.promo .caption {
+    position: absolute;
+    left: 1px;
+    bottom: 60px;
+    background-color: #2f89f2;
+    width: 100%;
+}
+
+.promo .caption p {
+    font-family: "Satisfy", cursive;
+    font-size: 2em;
+    margin: 0;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* - Typography
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+
+
+/* - Images & Media
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+/* -Media Queries
+––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+@media screen and (max-width: 700px) {
+    .promo img {
+        top: 15px; width: 120px; margin-left:-60px:
+        
+    }
+    
+    .promo .caption p {
+        font-size: 1em; line-height: 22px; padding: 10px 0px;
+    }
+
+}
+
+
